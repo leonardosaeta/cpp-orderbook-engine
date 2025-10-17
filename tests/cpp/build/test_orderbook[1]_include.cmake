@@ -1,0 +1,5 @@
+if(EXISTS "/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/tests/cpp/build/test_orderbook[1]_tests.cmake")
+  include("/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/tests/cpp/build/test_orderbook[1]_tests.cmake")
+else()
+  add_test(test_orderbook_NOT_BUILT test_orderbook_NOT_BUILT)
+endif()

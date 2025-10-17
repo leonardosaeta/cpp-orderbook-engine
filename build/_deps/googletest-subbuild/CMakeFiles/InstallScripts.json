@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

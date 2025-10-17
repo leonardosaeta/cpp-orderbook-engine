@@ -1,0 +1,5 @@
+add_test([=[OrderBook.InsertsAndBestPrices]=]  /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp/test_orderbook [==[--gtest_filter=OrderBook.InsertsAndBestPrices]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[OrderBook.InsertsAndBestPrices]=]  PROPERTIES WORKING_DIRECTORY /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[OrderBook.CancelRemovesLevels]=]  /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp/test_orderbook [==[--gtest_filter=OrderBook.CancelRemovesLevels]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[OrderBook.CancelRemovesLevels]=]  PROPERTIES WORKING_DIRECTORY /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_orderbook_TESTS OrderBook.InsertsAndBestPrices OrderBook.CancelRemovesLevels)

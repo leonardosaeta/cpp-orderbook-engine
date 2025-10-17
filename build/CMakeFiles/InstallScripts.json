@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/cmake_install.cmake",
+		"/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/engine/cmake_install.cmake",
+		"/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp/cmake_install.cmake",
+		"/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

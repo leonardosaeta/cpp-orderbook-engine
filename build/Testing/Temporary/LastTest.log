@@ -1,0 +1,57 @@
+Start testing: Oct 17 20:29 -03
+----------------------------------------------------------
+1/2 Testing: OrderBook.InsertsAndBestPrices
+1/2 Test: OrderBook.InsertsAndBestPrices
+Command: "/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp/test_orderbook" "--gtest_filter=OrderBook.InsertsAndBestPrices" "--gtest_also_run_disabled_tests"
+Directory: /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp
+"OrderBook.InsertsAndBestPrices" start time: Oct 17 20:29 -03
+Output:
+----------------------------------------------------------
+Running main() from /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBook.InsertsAndBestPrices
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBook
+[ RUN      ] OrderBook.InsertsAndBestPrices
+[       OK ] OrderBook.InsertsAndBestPrices (0 ms)
+[----------] 1 test from OrderBook (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBook.InsertsAndBestPrices" end time: Oct 17 20:29 -03
+"OrderBook.InsertsAndBestPrices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: OrderBook.CancelRemovesLevels
+2/2 Test: OrderBook.CancelRemovesLevels
+Command: "/Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp/test_orderbook" "--gtest_filter=OrderBook.CancelRemovesLevels" "--gtest_also_run_disabled_tests"
+Directory: /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/tests/cpp
+"OrderBook.CancelRemovesLevels" start time: Oct 17 20:29 -03
+Output:
+----------------------------------------------------------
+Running main() from /Users/leonardo/Documents/GitHub/cpp-orderbook-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBook.CancelRemovesLevels
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBook
+[ RUN      ] OrderBook.CancelRemovesLevels
+[       OK ] OrderBook.CancelRemovesLevels (0 ms)
+[----------] 1 test from OrderBook (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBook.CancelRemovesLevels" end time: Oct 17 20:29 -03
+"OrderBook.CancelRemovesLevels" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 17 20:29 -03
